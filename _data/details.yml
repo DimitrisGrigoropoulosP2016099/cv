@@ -8,6 +8,18 @@
  department: Computer Science
  githubUrl: https://github.com/DimitrisGrigoropoulosP2016099
  phone: 69XXXXXXX
+ workexp: none
+ lan: 
+   - English
+   - Greek
+   - German
+ Mlan:
+         - C
+         - C#
+         - C++  
+         - Java
+         - Python
+           
 
  mainfont: Hoefler Text
  fontsize: 10pt
