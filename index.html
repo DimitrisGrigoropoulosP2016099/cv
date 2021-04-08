@@ -19,10 +19,12 @@
 	        <h2>Department: {{site.data.details.department}}</h2>
 		<h2>Phonenumber:{{site.data.details.phone}}</h2>
 		<h2><a href="{{site.data.details.githubUrl}}"</a>Github</h2>
-		<h2 a href="1">Work experience:{{site.data.details.workexp}}</h2>
+		<h2>Work experience:{{site.data.details.workexp}}</h2>
 		<h2 class=>Known languages</h2>
 		 <ul>
+		 {% for language in site.data.details.language %}
 		  <li>{{site.data.details.language}}</li>
+		  {% endfor %}
 		 </ul>
 		 <p><a href="./pdf/cv.pdf">pdf</a></p>
 	</body>
