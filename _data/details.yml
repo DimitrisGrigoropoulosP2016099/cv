@@ -10,9 +10,9 @@
  phone: 69XXXXXXX
  workexp: none
  language: 
-   lan: English
-   lan: Greek
-   lan: German
+   - English
+   - Greek
+   - German
 
  mainfont: Hoefler Text
  fontsize: 10pt
