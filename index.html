@@ -12,29 +12,29 @@
 	<body>
 		
 		<h1 class="author">{{site.data.details.name}}</h1>
-		<p class"text_blockquotes">Passionate nobody who likes making games skilled in the art of game desing and squashing virtual bugs</p>
+		<p class"text_blockquotes">Passionate nobody who likes making games, skilled in the art of game design and squashing virtual bugs</p>
 		<h3>My location:  {{site.data.details.address}}</h3>
 		<h3>My email: {{site.data.details.email}}</h3>
-		<h3>Current Occupation:{{site.data.details.currentOccupation}} </h3>
+		<h3>Current Occupation: {{site.data.details.currentOccupation}} </h3>
 	        <h3>Current workplace: {{site.data.details.workplace}}</h3>
 	        <h3>Department: {{site.data.details.department}}</h3>
-		<h3>Phonenumber:{{site.data.details.phone}}</h3>
+		<h3>Phonenumber: {{site.data.details.phone}}</h3>
 		<h3><a href="{{site.data.details.githubUrl}}"> Github</a></h3>
-		<h3>Work experience:{{site.data.details.workexp}}</h3>
-		<h2 class="text_hr">Skills</h2>
+		<h3>Work experience: {{site.data.details.workexp}}</h3>
+		<h2 class="text_hr"><u> Skills</u> </h2>
 		<h3 class=>Human languages</h3>
 		 <ul>
 		 {% for lan in site.data.details.lan %}
 		  <li>{{lan}}</li>
 		  {% endfor %}
 		 </ul>
-		 <h3>Machine languages</h3>
+		 <h3>Programming languages</h3>
 		 <ul>
 			 {% for Mlan in site.data.details.Mlan %}
 			 <li>{{Mlan}} </li>
 			 {% endfor %}
 		 </ul>
-		 <p><a href="./pdf/cv.pdf">pdf</a></p>
+		 <h3><a href="./pdf/cv.pdf">PDF version</a></h3>
 	</body>
 	
  </html>
